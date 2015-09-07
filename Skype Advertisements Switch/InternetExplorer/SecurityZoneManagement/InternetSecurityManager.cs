@@ -29,7 +29,7 @@
 
         [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime)]
         public extern void SetSecuritySite([In] IntPtr pSite);
-
+        
         [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime)]
         public extern void SetZoneMapping([In] UrlZone dwZone, [In, MarshalAs(UnmanagedType.LPWStr)] string lpszPattern, [In] SetZoneMappingFlags dwFlags);
     }
